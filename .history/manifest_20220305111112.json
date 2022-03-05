@@ -1,0 +1,25 @@
+{
+
+    "name": "Wordle Solver",
+    
+    "description": "Get Wordle Solution on NYTimes in seconds",
+    
+    "version": "1.0",
+    
+    "manifest_version": 3,
+
+    "permissions": ["storage","activeTab","tabs"],
+
+    "background": {
+
+        "service_worker": "background.js"
+        
+        },
+
+    "action": {
+
+        "default_popup": "popup.html"
+        
+        }
+    
+    }

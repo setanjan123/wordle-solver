@@ -1,0 +1,17 @@
+{
+
+    "name": "Wordle Solver",
+    
+    "description": "Get Wordle Solution on NYTimes in seconds",
+    
+    "version": "1.0",
+    
+    "manifest_version": 3,
+
+    "background": {
+
+        "service_worker": "background.js"
+        
+        }
+    
+    }
